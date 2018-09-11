@@ -1,0 +1,113 @@
+body {
+  font-family: 'Mukta', sans-serif;
+  background: #9966ff; 
+}
+.text-center {
+    text-align: center;
+}
+.header, h1 {
+    /*margin-left: 20px;*/
+    color: white;
+    font-size: 3rem;
+}
+
+
+#all, #online, #offline {
+  
+  border-color: #ff668c;
+  border-radius: 4px;
+  background-color: #ff8c66;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+#status {
+  width: 80%; 
+  padding: 10px;
+  border: none;
+}
+
+#status:hover {
+    cursor: pointer;
+}
+
+
+
+#all.active,
+#online.active,
+#offline.active {
+    color: #330099;
+    background: #66d9ff;
+}
+
+#streamers {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.res {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  color: white;
+  }
+
+.name {
+  max-width: 100%; 
+  border-radius: 5px;
+  border: 3px solid #6441a4;
+  border-radius: 5px;
+}
+
+.on {
+    background: #66d9ff;
+    height: 180px;
+}
+
+.on:hover {
+    background: #ff66b3;
+}
+
+.off {
+    background: #fc85ae;
+    height: 180px;
+}
+
+.off:hover {
+    background: #d966ff;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    /*margin: 0.625rem 1.25rem;*/
+}
+
+.displayName,
+.game,
+.stream {
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+#status,
+#names {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+#names {
+    
+    margin: 10px auto 10px auto;
+    
+}
